@@ -47,7 +47,7 @@ The simplest way to add the widget to any HTML page:
 <script src="https://unpkg.com/crypto-marquee-widget@latest/dist/crypto-marquee-widget.min.js"></script>
 
 <!-- Direct from CryptoWatchNews -->
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.min.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.min.js"></script>
 ```
 
 ## ⚙️ Configuration
@@ -826,7 +826,7 @@ console.log('Memory usage:', performance.memory?.usedJSHeapSize);
 
 ```javascript
 // Debug: Test API directly
-fetch('https://www.cryptowatchnews.com/api/price/list?page=1&perPage=5')
+fetch('https://www.thecoinanalysis.com/api/price/list?page=1&perPage=5')
   .then(response => response.json())
   .then(data => console.log('API response:', data))
   .catch(error => console.error('API error:', error));
@@ -849,8 +849,8 @@ If your site uses CSP, add these directives:
 
 ```
 Content-Security-Policy: 
-  script-src 'self' https://cdn.jsdelivr.net https://unpkg.com https://www.cryptowatchnews.com;
-  connect-src 'self' https://www.cryptowatchnews.com;
+  script-src 'self' https://cdn.jsdelivr.net https://unpkg.com https://www.thecoinanalysis.com;
+  connect-src 'self' https://www.thecoinanalysis.com;
   img-src 'self' https://cdn.jsdelivr.net data:;
 ```
 
@@ -860,5 +860,5 @@ Content-Security-Policy:
 
 - 🐞 **Bug Reports**: [GitHub Issues](https://github.com/cryptowatchnews/crypto-marquee-widget/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/cryptowatchnews/crypto-marquee-widget/discussions)
-- 📧 **Email**: support@cryptowatchnews.com
-- 🌐 **Website**: [cryptowatchnews.com](https://www.cryptowatchnews.com)
+- 📧 **Email**: support@thecoinanalysis.com
+- 🌐 **Website**: [thecoinanalysis.com](https://www.thecoinanalysis.com)

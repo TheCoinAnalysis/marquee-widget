@@ -152,5 +152,5 @@ Breaking changes will be documented here with migration instructions.
 - **Repository**: https://github.com/cryptowatchnews/crypto-marquee-widget
 - **NPM Package**: https://www.npmjs.com/package/crypto-marquee-widget
 - **CDN**: https://cdn.jsdelivr.net/npm/crypto-marquee-widget
-- **Demo**: https://www.cryptowatchnews.com/crypto-marquee-widget
+- **Demo**: https://www.thecoinanalysis.com/crypto-marquee-widget
 - **Documentation**: https://github.com/cryptowatchnews/crypto-marquee-widget/tree/main/docs

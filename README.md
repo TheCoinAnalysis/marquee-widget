@@ -1,4 +1,4 @@
-# 🚀 CryptoWatchNews.com - CryptoMarquee Widget
+# 🚀 thecoinanalysis.com - CryptoMarquee Widget
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -25,33 +25,33 @@ Add this single line of HTML to your website:
 
 ```html
 <div id="crypto-marquee"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 **That's it!** 🎉 Your crypto ticker will automatically load and display live prices.
 
 ## 📱 Live Demo
 
-Visit our **[interactive demo](https://www.cryptowatchnews.com/crypto-marquee-widget)** to see the widget in action and test different configurations.
+Visit our **[interactive demo](https://www.thecoinanalysis.com/crypto-marquee-widget)** to see the widget in action and test different configurations.
 
 ## 🎨 Examples
 
 ### Default Widget
 ```html
 <div id="crypto-marquee"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ### Dark Theme
 ```html
 <div id="crypto-marquee" data-theme="dark"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ### Fast Animation
 ```html
 <div id="crypto-marquee" data-speed="20"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ### Compact Version
@@ -60,7 +60,7 @@ Visit our **[interactive demo](https://www.cryptowatchnews.com/crypto-marquee-wi
      data-count="10" 
      data-show-change="false">
 </div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ## ⚙️ Configuration
@@ -86,7 +86,7 @@ Customize your widget using HTML data attributes:
      data-show-change="true"
      data-show-powered-by="false">
 </div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ## 🌐 Platform Integration
@@ -97,7 +97,7 @@ Customize your widget using HTML data attributes:
 Add to your theme's `footer.php`:
 ```php
 <div id="crypto-marquee" data-theme="light"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 #### Method 2: Custom HTML Block
@@ -113,7 +113,7 @@ import { useEffect } from 'react';
 function CryptoMarquee({ speed = 40, theme = 'light' }) {
   useEffect(() => {
     const script = document.createElement('script');
-    script.src = 'https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js';
+    script.src = 'https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js';
     script.defer = true;
     document.body.appendChild(script);
     
@@ -136,7 +136,7 @@ export default {
   props: ['speed', 'theme'],
   mounted() {
     const script = document.createElement('script');
-    script.src = 'https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js';
+    script.src = 'https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js';
     document.body.appendChild(script);
   }
 }
@@ -149,14 +149,14 @@ Add to your theme's `theme.liquid` before `</body>`:
 
 ```liquid
 <div id="crypto-marquee" data-count="10"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ## 📦 Installation
 
 ### Via CDN (Recommended)
 ```html
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.js"></script>
 ```
 
 ### Via npm
@@ -229,8 +229,8 @@ A: Fully responsive and touch-friendly.
 
 - 🐞 **Bug reports**: [GitHub Issues](https://github.com/cryptoWatchNews/cryptowatchnews-marquee-widget/issues)
 - 💬 **Questions**: [GitHub Discussions](https://github.com/cryptoWatchNews/cryptowatchnews-marquee-widget/discussions)
-- 📧 **Email**: support@cryptowatchnews.com
-- 🌐 **Website**: [cryptowatchnews.com](https://www.cryptowatchnews.com)
+- 📧 **Email**: support@thecoinanalysis.com
+- 🌐 **Website**: [thecoinanalysis.com](https://www.thecoinanalysis.com)
 
 ## 🤝 Contributing
 
@@ -249,14 +249,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Thanks to all contributors who have helped improve this widget
-- Built with ❤️ by the [CryptoWatchNews](https://www.cryptowatchnews.com) team
+- Built with ❤️ by the [CryptoWatchNews](https://www.thecoinanalysis.com) team
 - Cryptocurrency data provided by reliable market APIs
 
 ---
 
 <div align="center">
 
-**[⭐ Star us on GitHub](https://github.com/cryptowatchnews/crypto-marquee-widget)** • **[🌐 Visit our website](https://www.cryptowatchnews.com)** • **[📺 Live Demo](https://www.cryptowatchnews.com/crypto-marquee-widget)**
+**[⭐ Star us on GitHub](https://github.com/cryptowatchnews/crypto-marquee-widget)** • **[🌐 Visit our website](https://www.thecoinanalysis.com)** • **[📺 Live Demo](https://www.thecoinanalysis.com/crypto-marquee-widget)**
 
 Made with ❤️ for the crypto community
 

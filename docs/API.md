@@ -102,7 +102,7 @@ const DEFAULT_CONFIG = {
   theme: 'light',         // 'light' or 'dark'
   showChange: true,       // Show price changes
   showPoweredBy: true,    // Show attribution
-  apiUrl: 'https://www.cryptowatchnews.com/api/price/list'
+  apiUrl: 'https://www.thecoinanalysis.com/api/price/list'
 };
 ```
 
@@ -110,7 +110,7 @@ const DEFAULT_CONFIG = {
 
 ### Price List Endpoint
 
-**URL:** `https://www.cryptowatchnews.com/api/price/list`
+**URL:** `https://www.thecoinanalysis.com/api/price/list`
 
 **Method:** GET
 
@@ -347,7 +347,7 @@ Add these directives to your CSP header:
 
 ```
 script-src 'self' https://cdn.jsdelivr.net;
-connect-src 'self' https://www.cryptowatchnews.com;
+connect-src 'self' https://www.thecoinanalysis.com;
 img-src 'self' https://cdn.jsdelivr.net data:;
 style-src 'self' 'unsafe-inline';
 ```
@@ -479,4 +479,4 @@ For technical support, please:
 
 - 🐞 Report bugs on [GitHub Issues](https://github.com/cryptowatchnews/crypto-marquee-widget/issues)
 - 💬 Ask questions in [GitHub Discussions](https://github.com/cryptowatchnews/crypto-marquee-widget/discussions)  
-- 📧 Email us at support@cryptowatchnews.com
+- 📧 Email us at support@thecoinanalysis.com
