@@ -48,7 +48,7 @@ function minifyJS(code) {
 // Fonction pour ajouter un header de version
 function addHeader(minifiedCode) {
     const version = new Date().toISOString().slice(0, 10);
-    const header = `/*! CryptoWatchNews Widget v${version} | https://cryptowatchnews.com */`;
+    const header = `/*! TheCoinAnalysis Widget v${version} | https://TheCoinAnalysis.com */`;
     return header + '\n' + minifiedCode;
 }
 
@@ -110,7 +110,7 @@ function generateIntegrationInstructions() {
 ## Basic Integration
 \`\`\`html
 <div id="crypto-marquee"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.min.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.min.js"></script>
 \`\`\`
 
 ## Advanced Configuration
@@ -122,7 +122,7 @@ function generateIntegrationInstructions() {
      data-show-change="true"
      data-show-powered-by="true">
 </div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.min.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.min.js"></script>
 \`\`\`
 
 ## Configuration Options
@@ -137,7 +137,7 @@ You can have multiple widgets on the same page:
 \`\`\`html
 <div id="crypto-marquee-1" data-count="10" data-theme="light"></div>
 <div id="crypto-marquee-2" data-count="5" data-theme="dark"></div>
-<script src="https://www.cryptowatchnews.com/widgets/crypto-marquee-widget.min.js"></script>
+<script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.min.js"></script>
 \`\`\`
 `;
     

@@ -1,7 +1,7 @@
 /**
- * CryptoWatchNews Marquee Widget v1.0
+ * TheCoinAnalysis Marquee Widget v1.0
  * Embeddable cryptocurrency price marquee for external websites
- * https://www.cryptowatchnews.com
+ * https://www.thecoinanalysis.com
  */
 
 (function() {
@@ -13,7 +13,7 @@
         count: 15,
         theme: "light",
         showChange: true,
-        apiUrl: "https://www.cryptowatchnews.com/api/price/list",
+        apiUrl: "https://www.thecoinanalysis.com/api/price/list",
         showPoweredBy: true,
         fontSize: 0.8,
     };
@@ -355,7 +355,7 @@
                     name: token.name,
                     price: parseFloat(token.priceUsd) || 0,
                     change: parseFloat(token.change24hPct) || 0,
-                    icon: `https://www.cryptowatchnews.com/images/tokens/${token.symbol?.toLowerCase()}.svg`,
+                    icon: `https://www.thecoinanalysis.com/images/tokens/${token.symbol?.toLowerCase()}.svg`,
                 }));
         }
 
@@ -387,7 +387,7 @@
             const positive = change >= 0;
             const slug = createSlug(crypto.name);
             const symbol = (crypto.symbol || "").toLowerCase().replace(/[^a-z0-9-]/g, "");
-            const href = `https://www.cryptowatchnews.com/price/${slug}/${symbol}-usd`;
+            const href = `https://www.thecoinanalysis.com/price/${slug}/${symbol}-usd`;
 
             const changeHtml = this.config.showChange ? `
                 <span class="cwn-crypto-change ${positive ? "positive" : "negative"}">
@@ -412,14 +412,14 @@
 
         createPoweredByItem() {
             return `
-                <a href="https://www.cryptowatchnews.com" class="cwn-powered-by" target="_blank" rel="noopener">
+                <a href="https://www.thecoinanalysis.com" class="cwn-powered-by" target="_blank" rel="noopener">
                     <img 
-                        src="https://www.cryptowatchnews.com/favicon-32x32.png" 
-                        alt="CryptoWatchNews"
+                        src="https://www.thecoinanalysis.com/favicon-32x32.png" 
+                        alt="TheCoinAnalysis"
                         class="cwn-powered-by-icon"
                         onerror="this.style.display='none'"
                     />
-                    <span>Powered by CryptoWatchNews</span>
+                    <span>Powered by TheCoinAnalysis</span>
                 </a>
             `;
         }
