@@ -165,13 +165,13 @@ npm install crypto-marquee-widget
 ```
 
 ### Download Files
-Download the latest release from [GitHub Releases](https://github.com/cryptoWatchNews/cryptowatchnews-marquee-widget/releases)
+Download the latest release from [GitHub Releases](https://github.com/thecoinanalysis/thecoinanalysis-marquee-widget/releases)
 
 ## 🛠️ Development
 
 ```bash
 # Clone the repository
-git clone https://github.com/cryptowatchnews/crypto-marquee-widget.git
+git clone https://github.com/thecoinanalysis/crypto-marquee-widget.git
 cd crypto-marquee-widget
 
 # Install dependencies
@@ -227,8 +227,8 @@ A: Fully responsive and touch-friendly.
 
 ## 🐛 Issues & Support
 
-- 🐞 **Bug reports**: [GitHub Issues](https://github.com/cryptoWatchNews/cryptowatchnews-marquee-widget/issues)
-- 💬 **Questions**: [GitHub Discussions](https://github.com/cryptoWatchNews/cryptowatchnews-marquee-widget/discussions)
+- 🐞 **Bug reports**: [GitHub Issues](https://github.com/thecoinanalysis/thecoinanalysis-marquee-widget/issues)
+- 💬 **Questions**: [GitHub Discussions](https://github.com/thecoinanalysis/thecoinanalysis-marquee-widget/discussions)
 - 📧 **Email**: support@thecoinanalysis.com
 - 🌐 **Website**: [thecoinanalysis.com](https://www.thecoinanalysis.com)
 
@@ -249,14 +249,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Thanks to all contributors who have helped improve this widget
-- Built with ❤️ by the [CryptoWatchNews](https://www.thecoinanalysis.com) team
+- Built with ❤️ by the [thecoinanalysis](https://www.thecoinanalysis.com) team
 - Cryptocurrency data provided by reliable market APIs
 
 ---
 
 <div align="center">
 
-**[⭐ Star us on GitHub](https://github.com/cryptowatchnews/crypto-marquee-widget)** • **[🌐 Visit our website](https://www.thecoinanalysis.com)** • **[📺 Live Demo](https://www.thecoinanalysis.com/crypto-marquee-widget)**
+**[⭐ Star us on GitHub](https://github.com/thecoinanalysis/crypto-marquee-widget)** • **[🌐 Visit our website](https://www.thecoinanalysis.com)** • **[📺 Live Demo](https://www.thecoinanalysis.com/crypto-marquee-widget)**
 
 Made with ❤️ for the crypto community
 

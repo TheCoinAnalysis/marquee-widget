@@ -46,7 +46,7 @@ The simplest way to add the widget to any HTML page:
 <!-- unpkg CDN -->
 <script src="https://unpkg.com/crypto-marquee-widget@latest/dist/crypto-marquee-widget.min.js"></script>
 
-<!-- Direct from CryptoWatchNews -->
+<!-- Direct from thecoinanalysis -->
 <script src="https://www.thecoinanalysis.com/widgets/crypto-marquee-widget.min.js"></script>
 ```
 
@@ -858,7 +858,7 @@ Content-Security-Policy:
 
 ## 📞 Need Help?
 
-- 🐞 **Bug Reports**: [GitHub Issues](https://github.com/cryptowatchnews/crypto-marquee-widget/issues)
-- 💬 **Questions**: [GitHub Discussions](https://github.com/cryptowatchnews/crypto-marquee-widget/discussions)
+- 🐞 **Bug Reports**: [GitHub Issues](https://github.com/thecoinanalysis/crypto-marquee-widget/issues)
+- 💬 **Questions**: [GitHub Discussions](https://github.com/thecoinanalysis/crypto-marquee-widget/discussions)
 - 📧 **Email**: support@thecoinanalysis.com
 - 🌐 **Website**: [thecoinanalysis.com](https://www.thecoinanalysis.com)

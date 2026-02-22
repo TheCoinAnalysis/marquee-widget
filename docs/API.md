@@ -477,6 +477,6 @@ async function testWidgetLoading() {
 
 For technical support, please:
 
-- 🐞 Report bugs on [GitHub Issues](https://github.com/cryptowatchnews/crypto-marquee-widget/issues)
-- 💬 Ask questions in [GitHub Discussions](https://github.com/cryptowatchnews/crypto-marquee-widget/discussions)  
+- 🐞 Report bugs on [GitHub Issues](https://github.com/thecoinanalysis/crypto-marquee-widget/issues)
+- 💬 Ask questions in [GitHub Discussions](https://github.com/thecoinanalysis/crypto-marquee-widget/discussions)  
 - 📧 Email us at support@thecoinanalysis.com

@@ -35,18 +35,18 @@
     "website"
   ],
   "author": {
-    "name": "CryptoWatchNews",
+    "name": "thecoinanalysis",
     "email": "contact@thecoinanalysis.com",
     "url": "https://www.thecoinanalysis.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/cryptowatchnews/crypto-marquee-widget#readme",
+  "homepage": "https://github.com/thecoinanalysis/crypto-marquee-widget#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cryptowatchnews/crypto-marquee-widget.git"
+    "url": "git+https://github.com/thecoinanalysis/crypto-marquee-widget.git"
   },
   "bugs": {
-    "url": "https://github.com/cryptowatchnews/crypto-marquee-widget/issues"
+    "url": "https://github.com/thecoinanalysis/crypto-marquee-widget/issues"
   },
   "engines": {
     "node": ">=14.0.0"

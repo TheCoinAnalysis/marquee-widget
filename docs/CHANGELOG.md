@@ -73,7 +73,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Static HTML** - Simple script tag integration
 
 #### 📡 API Integration  
-- **CryptoWatchNews API** - Primary data source
+- **thecoinanalysis API** - Primary data source
 - **Custom API Support** - Bring your own data
 - **Error Handling** - Graceful fallbacks
 - **Rate Limiting** - Respect API limits
@@ -142,15 +142,15 @@ Breaking changes will be documented here with migration instructions.
 
 ## Contributors
 
-- **CryptoWatchNews Team** - Initial development and design
+- **thecoinanalysis Team** - Initial development and design
 - **Community Contributors** - Feature requests and bug reports
 
 ---
 
 ## Links
 
-- **Repository**: https://github.com/cryptowatchnews/crypto-marquee-widget
+- **Repository**: https://github.com/thecoinanalysis/crypto-marquee-widget
 - **NPM Package**: https://www.npmjs.com/package/crypto-marquee-widget
 - **CDN**: https://cdn.jsdelivr.net/npm/crypto-marquee-widget
 - **Demo**: https://www.thecoinanalysis.com/crypto-marquee-widget
-- **Documentation**: https://github.com/cryptowatchnews/crypto-marquee-widget/tree/main/docs
+- **Documentation**: https://github.com/thecoinanalysis/crypto-marquee-widget/tree/main/docs
